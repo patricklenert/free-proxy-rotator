@@ -6,7 +6,6 @@ const readFile = promisify(require('fs').readFile);
 const exec = promisify(require('child_process').exec);
 
 const PROXY_OPTIONS = {
-  countries: ['us'],
   anonymityLevels: ['elite', 'anonymous'],
   sourcesBlackList: ['kingproxies', 'bitproxies', 'blackhatworld', 'proxies24']
 };
