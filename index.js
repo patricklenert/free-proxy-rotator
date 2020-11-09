@@ -7,7 +7,8 @@ const exec = promisify(require('child_process').exec);
 
 const PROXY_OPTIONS = {
   countries: ['us'],
-  sourcesBlackList: ['kingproxies', 'bitproxies']
+  anonymityLevels: ['elite', 'anonymous'],
+  sourcesBlackList: ['kingproxies', 'bitproxies', 'blackhatworld', 'proxies24']
 };
 
 const CWD = process.cwd()
